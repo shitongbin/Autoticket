@@ -1,0 +1,601 @@
+1568044684004	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ngBbIySU1Gdz"
+1568044688554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568044688555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568044688555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568044688932	Marionette	TRACE	Received observer notification profile-after-change
+1568044689524	Marionette	TRACE	Received observer notification command-line-startup
+1568044689524	Marionette	TRACE	Received observer notification nsPref:changed
+1568044689524	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1568044690693	Marionette	TRACE	Received observer notification toplevel-window-ready
+1568044693702	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1568044693702	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1568044694092	Marionette	TRACE	All scripts recorded.
+1568044694092	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1568044694093	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1568044694093	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1568044694093	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1568044694093	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1568044694093	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1568044694093	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1568044694094	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1568044694094	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1568044694094	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1568044694094	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1568044694094	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1568044694094	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1568044694094	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1568044694094	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1568044694094	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1568044694094	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1568044694094	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1568044694095	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1568044694095	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1568044694095	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1568044694095	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1568044694095	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1568044694095	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1568044694095	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1568044694095	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1568044694276	Marionette	INFO	Listening on port 39997
+1568044694276	Marionette	DEBUG	Remote service is active
+1568044694342	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:58936
+1568044694343	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1568044694343	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568044694379	Marionette	TRACE	[4294967297] Frame script loaded
+1568044694379	Marionette	TRACE	[4294967297] Frame script registered
+1568044694384	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"65c5a766-b335-4ea4-ba2f-dab9d9fccab6","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... ozprofile.ngBbIySU1Gdz","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1568044694387	Marionette	DEBUG	0 -> [0,2,"WebDriver:MaximizeWindow",{}]
+1568044694681	Marionette	DEBUG	0 <- [1,2,null,{"x":0,"y":27,"width":2560,"height":1332}]
+1568044694684	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.damai.cn/"}]
+1568044694711	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1568044697854	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+1568044698216	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.damai.cn/
+WebGL(0x7f33eb82f800)::ForceLoseContext
+
+(/usr/lib/firefox/firefox:2996): dconf-WARNING **: 23:58:19.089: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+WebGL(0x7f33ecf3b000)::ForceLoseContext
+1568044699254	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.damai.cn/
+1568044699255	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1568044699260	Marionette	DEBUG	0 -> [0,4,"WebDriver:GetTitle",{}]
+1568044699260	Marionette	DEBUG	0 <- [1,4,null,{"value":"大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！"}]
+1568044700264	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetTitle",{}]
+1568044700265	Marionette	DEBUG	0 <- [1,5,null,{"value":"大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！"}]
+1568044701270	Marionette	DEBUG	0 -> [0,6,"WebDriver:GetTitle",{}]
+1568044701271	Marionette	DEBUG	0 <- [1,6,null,{"value":"大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！"}]
+1568044702279	Marionette	DEBUG	0 -> [0,7,"WebDriver:GetTitle",{}]
+1568044702280	Marionette	DEBUG	0 <- [1,7,null,{"value":"大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！"}]
+1568044703286	Marionette	DEBUG	0 -> [0,8,"WebDriver:GetTitle",{}]
+1568044703289	Marionette	DEBUG	0 <- [1,8,null,{"value":"大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！"}]
+1568044704315	Marionette	DEBUG	0 -> [0,9,"WebDriver:GetTitle",{}]
+1568044704317	Marionette	DEBUG	0 <- [1,9,null,{"value":"大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！"}]
+1568044705322	Marionette	DEBUG	0 -> [0,10,"WebDriver:GetTitle",{}]
+1568044705323	Marionette	DEBUG	0 <- [1,10,null,{"value":"大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！"}]
+1568044706328	Marionette	DEBUG	0 -> [0,11,"WebDriver:GetTitle",{}]
+1568044706329	Marionette	DEBUG	0 <- [1,11,null,{"value":"大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！"}]
+1568044707338	Marionette	DEBUG	0 -> [0,12,"WebDriver:GetTitle",{}]
+1568044707339	Marionette	DEBUG	0 <- [1,12,null,{"value":"大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！"}]
+1568044708345	Marionette	DEBUG	0 -> [0,13,"WebDriver:GetTitle",{}]
+1568044708346	Marionette	DEBUG	0 <- [1,13,null,{"value":"大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！"}]
+WebGL(0x7f33eb833800)::ForceLoseContext
+WebGL(0x7f33f5094000)::ForceLoseContext
+1568044709352	Marionette	DEBUG	0 -> [0,14,"WebDriver:GetTitle",{}]
+1568044709352	Marionette	DEBUG	0 <- [1,14,null,{"value":"大麦登录"}]
+1568044709355	Marionette	DEBUG	0 -> [0,15,"WebDriver:GetTitle",{}]
+1568044709355	Marionette	DEBUG	0 <- [1,15,null,{"value":"大麦登录"}]
+WebGL(0x7f33ed647800)::ForceLoseContext
+WebGL(0x7f33d9628000)::ForceLoseContext
+WebGL(0x7f33d9636000)::ForceLoseContext
+1568044710358	Marionette	DEBUG	0 -> [0,16,"WebDriver:GetTitle",{}]
+1568044710359	Marionette	DEBUG	0 <- [1,16,null,{"value":"大麦登录"}]
+WebGL(0x7f33eee6a000)::ForceLoseContext
+WebGL(0x7f33f17d0000)::ForceLoseContext
+1568044711362	Marionette	DEBUG	0 -> [0,17,"WebDriver:GetTitle",{}]
+1568044711363	Marionette	DEBUG	0 <- [1,17,null,{"value":"大麦登录"}]
+1568044712368	Marionette	DEBUG	0 -> [0,18,"WebDriver:GetTitle",{}]
+1568044712369	Marionette	DEBUG	0 <- [1,18,null,{"value":"大麦登录"}]
+1568044713374	Marionette	DEBUG	0 -> [0,19,"WebDriver:GetTitle",{}]
+1568044713375	Marionette	DEBUG	0 <- [1,19,null,{"value":"大麦登录"}]
+1568044714379	Marionette	DEBUG	0 -> [0,20,"WebDriver:GetTitle",{}]
+1568044714380	Marionette	DEBUG	0 <- [1,20,null,{"value":"大麦登录"}]
+1568044715386	Marionette	DEBUG	0 -> [0,21,"WebDriver:GetTitle",{}]
+1568044715387	Marionette	DEBUG	0 <- [1,21,null,{"value":"大麦登录"}]
+1568044716393	Marionette	DEBUG	0 -> [0,22,"WebDriver:GetTitle",{}]
+1568044716394	Marionette	DEBUG	0 <- [1,22,null,{"value":"大麦登录"}]
+1568044717401	Marionette	DEBUG	0 -> [0,23,"WebDriver:GetTitle",{}]
+1568044717402	Marionette	DEBUG	0 <- [1,23,null,{"value":"大麦登录"}]
+1568044718406	Marionette	DEBUG	0 -> [0,24,"WebDriver:GetTitle",{}]
+1568044718407	Marionette	DEBUG	0 <- [1,24,null,{"value":"大麦登录"}]
+1568044719412	Marionette	DEBUG	0 -> [0,25,"WebDriver:GetTitle",{}]
+1568044719414	Marionette	DEBUG	0 <- [1,25,null,{"value":"大麦登录"}]
+1568044720420	Marionette	DEBUG	0 -> [0,26,"WebDriver:GetTitle",{}]
+1568044720420	Marionette	DEBUG	0 <- [1,26,null,{"value":"大麦登录"}]
+1568044721427	Marionette	DEBUG	0 -> [0,27,"WebDriver:GetTitle",{}]
+1568044721428	Marionette	DEBUG	0 <- [1,27,null,{"value":"大麦登录"}]
+1568044722434	Marionette	DEBUG	0 -> [0,28,"WebDriver:GetTitle",{}]
+1568044722435	Marionette	DEBUG	0 <- [1,28,null,{"value":"大麦登录"}]
+1568044723442	Marionette	DEBUG	0 -> [0,29,"WebDriver:GetTitle",{}]
+1568044723443	Marionette	DEBUG	0 <- [1,29,null,{"value":"大麦登录"}]
+1568044724446	Marionette	DEBUG	0 -> [0,30,"WebDriver:GetTitle",{}]
+1568044724446	Marionette	DEBUG	0 <- [1,30,null,{"value":"大麦登录"}]
+1568044725452	Marionette	DEBUG	0 -> [0,31,"WebDriver:GetTitle",{}]
+1568044725453	Marionette	DEBUG	0 <- [1,31,null,{"value":"大麦登录"}]
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1568044726458	Marionette	DEBUG	0 -> [0,32,"WebDriver:GetTitle",{}]
+1568044726458	Marionette	DEBUG	0 <- [1,32,null,{"value":"大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！"}]
+1568044726461	Marionette	DEBUG	0 -> [0,33,"WebDriver:GetCookies",{}]
+1568044726463	Marionette	DEBUG	0 <- [1,33,null,[{"name":"cna","value":"mmT9FUFf0nMCASvgL6+vrQYt","path":"/","domain":".damai.cn","secure":false,"httpOnly":false, ... SEp6c1XhTe8Bqyr2a8JTFeY4P6U577u9thX0J","path":"/","domain":".damai.cn","secure":false,"httpOnly":false,"expiry":1583596709}]]
+1568044726465	Marionette	DEBUG	0 -> [0,34,"WebDriver:Navigate",{"url":"https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619"}]
+1568044726543	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.damai.cn/
+1568044726614	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.damai.cn/
+1568044726614	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.damai.cn/
+1568044726696	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+WebGL(0x7f33eb81b800)::ForceLoseContext
+WebGL(0x7f33ed654800)::ForceLoseContext
+1568044728181	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044728182	Marionette	DEBUG	0 <- [1,34,null,{"value":null}]
+1568044728187	Marionette	DEBUG	0 -> [0,35,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"cna","path":"/","secure":false,"value":"mmT9FUFf0nMCASvgL6+vrQYt"}}]
+1568044728189	Marionette	DEBUG	0 <- [1,35,null,{"value":null}]
+1568044728196	Marionette	DEBUG	0 -> [0,36,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"cookie2","path":"/","secure":false,"value":"1cee3cc3e034295e28a4286363300bcb"}}]
+1568044728197	Marionette	DEBUG	0 <- [1,36,null,{"value":null}]
+1568044728199	Marionette	DEBUG	0 -> [0,37,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"t","path":"/","secure":false,"value":"8588607d9be53c3bcd8f04eacc7b3b7c"}}]
+1568044728199	Marionette	DEBUG	0 <- [1,37,null,{"value":null}]
+1568044728201	Marionette	DEBUG	0 -> [0,38,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"_tb_token_","path":"/","secure":false,"value":"fb34e455eede7"}}]
+1568044728202	Marionette	DEBUG	0 <- [1,38,null,{"value":null}]
+1568044728205	Marionette	DEBUG	0 -> [0,39,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"_hvn_login","path":"/","secure":false,"value":"18"}}]
+1568044728206	Marionette	DEBUG	0 <- [1,39,null,{"value":null}]
+1568044728208	Marionette	DEBUG	0 -> [0,40,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"munb","path":"/","secure":false,"value":"3734387547"}}]
+1568044728209	Marionette	DEBUG	0 <- [1,40,null,{"value":null}]
+1568044728213	Marionette	DEBUG	0 -> [0,41,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"csg","path":"/","secure":false,"value":"0bb1a406"}}]
+1568044728213	Marionette	DEBUG	0 <- [1,41,null,{"value":null}]
+1568044728215	Marionette	DEBUG	0 -> [0,42,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"damai.cn_nickName","path":"/","secure":false,"value":"%E7%9F%B3%E5%A4%B4"}}]
+1568044728216	Marionette	DEBUG	0 <- [1,42,null,{"value":null}]
+1568044728218	Marionette	DEBUG	0 -> [0,43,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"damai.cn_user","path":"/","secure":false,"value":"p9mjNKwHOgHfRDw190CfwTU7alB58LwzsihqBQXX1/+iFuVpEBgOsPIYqEJaC/ay"}}]
+1568044728218	Marionette	DEBUG	0 <- [1,43,null,{"value":null}]
+1568044728220	Marionette	DEBUG	0 -> [0,44,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"damai.cn_user_new","path":"/","secure":false,"value":"p9mjNKwHOgHfRDw190CfwTU7alB58LwzsihqBQXX1%2F%2BiFuVpEBgOsPIYqEJaC%2Fay"}}]
+1568044728220	Marionette	DEBUG	0 <- [1,44,null,{"value":null}]
+1568044728222	Marionette	DEBUG	0 -> [0,45,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"h5token","path":"/","secure":false,"value":"42b1d51e4cda4240bc693fe76a77035a_1_1"}}]
+1568044728223	Marionette	DEBUG	0 <- [1,45,null,{"value":null}]
+1568044728225	Marionette	DEBUG	0 -> [0,46,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"damai_cn_user","path":"/","secure":false,"value":"p9mjNKwHOgHfRDw190CfwTU7alB58LwzsihqBQXX1%2F%2BiFuVpEBgOsPIYqEJaC%2Fay"}}]
+1568044728226	Marionette	DEBUG	0 <- [1,46,null,{"value":null}]
+1568044728227	Marionette	DEBUG	0 -> [0,47,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"loginkey","path":"/","secure":false,"value":"42b1d51e4cda4240bc693fe76a77035a_1_1"}}]
+1568044728228	Marionette	DEBUG	0 <- [1,47,null,{"value":null}]
+1568044728230	Marionette	DEBUG	0 -> [0,48,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"user_id","path":"/","secure":false,"value":"55794363"}}]
+1568044728231	Marionette	DEBUG	0 <- [1,48,null,{"value":null}]
+1568044728233	Marionette	DEBUG	0 -> [0,49,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"isg","path":"/","secure":false,"value":"BGBg1unSKdXgi5XR_PqwUjOoMmfywURe5VEtctpxM3sO1QH_gng-wyKkbbRw_vwL"}}]
+1568044728233	Marionette	DEBUG	0 <- [1,49,null,{"value":null}]
+1568044728235	Marionette	DEBUG	0 -> [0,50,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"l","path":"/","secure":false,"value":"cBgIVQPVqwlQdvR1BOCgquI8aN7OQIObYuPRwNfXi_5BK_L1-e_OkzlxSEp6c1XhTe8Bqyr2a8JTFeY4P6U577u9thX0J"}}]
+1568044728236	Marionette	DEBUG	0 <- [1,50,null,{"value":null}]
+1568044728238	Marionette	DEBUG	0 -> [0,51,"WebDriver:Refresh",{}]
+1568044728242	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044728337	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044728337	Marionette	TRACE	[4294967297] Received DOM event unload for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044728600	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044728603	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+WebGL(0x7f33ed1db000)::ForceLoseContext
+WebGL(0x7f33dc389000)::ForceLoseContext
+1568044729120	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044729121	Marionette	DEBUG	0 <- [1,51,null,{"value":null}]
+1568044729124	Marionette	DEBUG	0 -> [0,52,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[1]/div/div[3]/div[1]/a[2]/div"}]
+1568044729127	Marionette	DEBUG	0 <- [1,52,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a75ec07d-686e-46c1-8598-940ca5543781"}}]
+1568044729129	Marionette	DEBUG	0 -> [0,53,"WebDriver:GetElementText",{"id":"a75ec07d-686e-46c1-8598-940ca5543781"}]
+1568044729138	Marionette	DEBUG	0 <- [1,53,null,{"value":"石头"}]
+1568044729142	Marionette	DEBUG	0 -> [0,54,"WebDriver:GetTitle",{}]
+1568044729142	Marionette	DEBUG	0 <- [1,54,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044729146	Marionette	DEBUG	0 -> [0,55,"WebDriver:FindElements",{"using":"css selector","value":".perform__order__select"}]
+1568044729150	Marionette	DEBUG	0 <- [1,55,null,[{"element-6066-11e4-a52e-4f735466cecf":"35c7820e-0f56-409e-ac07-0801e917ecc3"},{"element-6066-11e4-a52e-4f735466cecf":"04c03ad3-e501-4082-b04a-006e9a17187e"},{"element-6066-11e4-a52e-4f735466cecf":"2db94eec-af38-43d5-a87e-dc932ccb0715"}]]
+1568044729153	Marionette	DEBUG	0 -> [0,56,"WebDriver:FindElement",{"element":"35c7820e-0f56-409e-ac07-0801e917ecc3","using":"css selector","value":".select_left"}]
+1568044729156	Marionette	DEBUG	0 <- [1,56,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a9695006-668b-47bc-87c8-e66e41207361"}}]
+1568044729157	Marionette	DEBUG	0 -> [0,57,"WebDriver:GetElementText",{"id":"a9695006-668b-47bc-87c8-e66e41207361"}]
+1568044729160	Marionette	DEBUG	0 <- [1,57,null,{"value":""}]
+1568044729162	Marionette	DEBUG	0 -> [0,58,"WebDriver:FindElement",{"element":"35c7820e-0f56-409e-ac07-0801e917ecc3","using":"css selector","value":".select_left"}]
+1568044729165	Marionette	DEBUG	0 <- [1,58,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a9695006-668b-47bc-87c8-e66e41207361"}}]
+1568044729167	Marionette	DEBUG	0 -> [0,59,"WebDriver:GetElementText",{"id":"a9695006-668b-47bc-87c8-e66e41207361"}]
+1568044729170	Marionette	DEBUG	0 <- [1,59,null,{"value":""}]
+1568044729172	Marionette	DEBUG	0 -> [0,60,"WebDriver:FindElement",{"element":"04c03ad3-e501-4082-b04a-006e9a17187e","using":"css selector","value":".select_left"}]
+1568044729174	Marionette	DEBUG	0 <- [1,60,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"edd0d849-c9a1-440e-a9dc-2ddea9bd6e9f"}}]
+1568044729176	Marionette	DEBUG	0 -> [0,61,"WebDriver:GetElementText",{"id":"edd0d849-c9a1-440e-a9dc-2ddea9bd6e9f"}]
+1568044729183	Marionette	DEBUG	0 <- [1,61,null,{"value":"场次"}]
+1568044729185	Marionette	DEBUG	0 -> [0,62,"WebDriver:FindElement",{"element":"2db94eec-af38-43d5-a87e-dc932ccb0715","using":"css selector","value":".select_left"}]
+1568044729187	Marionette	DEBUG	0 <- [1,62,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"b734901d-363f-40d5-b5bb-40a1be4737be"}}]
+1568044729189	Marionette	DEBUG	0 -> [0,63,"WebDriver:GetElementText",{"id":"b734901d-363f-40d5-b5bb-40a1be4737be"}]
+1568044729194	Marionette	DEBUG	0 <- [1,63,null,{"value":"票档"}]
+1568044729196	Marionette	DEBUG	0 -> [0,64,"WebDriver:FindElement",{"element":"2db94eec-af38-43d5-a87e-dc932ccb0715","using":"css selector","value":".select_left"}]
+1568044729198	Marionette	DEBUG	0 <- [1,64,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"b734901d-363f-40d5-b5bb-40a1be4737be"}}]
+1568044729200	Marionette	DEBUG	0 -> [0,65,"WebDriver:GetElementText",{"id":"b734901d-363f-40d5-b5bb-40a1be4737be"}]
+1568044729205	Marionette	DEBUG	0 <- [1,65,null,{"value":"票档"}]
+1568044729208	Marionette	DEBUG	0 -> [0,66,"WebDriver:FindElements",{"element":"04c03ad3-e501-4082-b04a-006e9a17187e","using":"css selector","value":".select_right_list_item"}]
+1568044729210	Marionette	DEBUG	0 <- [1,66,null,[{"element-6066-11e4-a52e-4f735466cecf":"9171f17e-f782-49c2-8600-7222db82655d"}]]
+1568044729213	Marionette	DEBUG	0 -> [0,67,"WebDriver:FindElement",{"element":"9171f17e-f782-49c2-8600-7222db82655d","using":"css selector","value":".presell"}]
+1568044729215	Marionette	DEBUG	0 <- [1,67,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c882a57f-1ed1-498a-8d54-996b46aeb2b6"}}]
+1568044729217	Marionette	DEBUG	0 -> [0,68,"WebDriver:GetElementText",{"id":"c882a57f-1ed1-498a-8d54-996b46aeb2b6"}]
+1568044729224	Marionette	DEBUG	0 <- [1,68,null,{"value":"预售"}]
+1568044729227	Marionette	DEBUG	0 -> [0,69,"WebDriver:GetElementText",{"id":"c882a57f-1ed1-498a-8d54-996b46aeb2b6"}]
+1568044729233	Marionette	DEBUG	0 <- [1,69,null,{"value":"预售"}]
+1568044729236	Marionette	DEBUG	0 -> [0,70,"WebDriver:ElementClick",{"id":"9171f17e-f782-49c2-8600-7222db82655d"}]
+1568044729452	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1568044729454	Marionette	DEBUG	0 <- [1,70,null,{"value":null}]
+1568044729460	Marionette	DEBUG	0 -> [0,71,"WebDriver:FindElements",{"element":"2db94eec-af38-43d5-a87e-dc932ccb0715","using":"css selector","value":".select_right_list_item"}]
+1568044729467	Marionette	DEBUG	0 <- [1,71,null,[{"element-6066-11e4-a52e-4f735466cecf":"4dca7269-1bfe-405f-bc25-ba9115e58aa0"},{"element-6066-11e4-a52e-4f735466c ... ecf":"cfbf2826-5cd0-4b75-9f85-383bf48aee8a"},{"element-6066-11e4-a52e-4f735466cecf":"7b2a6926-7ee1-4de8-86b4-3be30f2c3923"}]]
+1568044729470	Marionette	DEBUG	0 -> [0,72,"WebDriver:FindElement",{"element":"4dca7269-1bfe-405f-bc25-ba9115e58aa0","using":"css selector","value":".notticket"}]
+1568044729474	Marionette	DEBUG	0 <- [1,72,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"430acbeb-5971-447a-aed9-9b684c07ef8d"}}]
+1568044729477	Marionette	DEBUG	0 -> [0,73,"WebDriver:FindElement",{"element":"5e905686-5bbd-428e-b894-4aba3aeb3937","using":"css selector","value":".notticket"}]
+1568044729479	Marionette	DEBUG	0 <- [1,73,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"13fdb385-e606-4e1f-80c3-4d8a9d6e23b1"}}]
+1568044729482	Marionette	DEBUG	0 -> [0,74,"WebDriver:FindElement",{"element":"57204534-6e7b-4fee-9d09-969513bc0fac","using":"css selector","value":".notticket"}]
+1568044729485	Marionette	DEBUG	0 <- [1,74,{"error":"no such element","message":"Unable to locate element: .notticket","stacktrace":"WebDriverError@chrome://mario ... entError@chrome://marionette/content/error.js:389:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1568044729488	Marionette	DEBUG	0 -> [0,75,"WebDriver:ElementClick",{"id":"57204534-6e7b-4fee-9d09-969513bc0fac"}]
+1568044729702	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1568044729703	Marionette	DEBUG	0 <- [1,75,null,{"value":null}]
+1568044729707	Marionette	DEBUG	0 -> [0,76,"WebDriver:FindElement",{"using":"css selector","value":".buybtn"}]
+1568044729711	Marionette	DEBUG	0 <- [1,76,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"837c6add-bf58-42c2-8abe-598df4fb6827"}}]
+1568044729714	Marionette	DEBUG	0 -> [0,77,"WebDriver:GetElementText",{"id":"837c6add-bf58-42c2-8abe-598df4fb6827"}]
+1568044729720	Marionette	DEBUG	0 <- [1,77,null,{"value":"立即预订"}]
+1568044729722	Marionette	DEBUG	0 -> [0,78,"WebDriver:ElementClick",{"id":"837c6add-bf58-42c2-8abe-598df4fb6827"}]
+1568044729734	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044729917	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044729917	Marionette	TRACE	[4294967297] Received DOM event unload for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044730235	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1568044730754	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://buy.damai.cn/orderConfirm?exParams=%7B%22damai%22%3A%221%22%2C%22channel%22%3A%22damai_app%22%2C%22umpChannel%22%3A%2 ... %2C%22serviceVersion%22%3A%221.8.5%22%7D&buyParam=601689680619_1_4214708653111&buyNow=true&spm=a2oeg.project.projectinfo.dbuy
+WebGL(0x7f33dc32c800)::ForceLoseContext
+WebGL(0x7f33dc3cc000)::ForceLoseContext
+1568044731013	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://buy.damai.cn/orderConfirm?exParams=%7B%22damai%22%3A%221%22%2C%22channel%22%3A%22damai_app%22%2C%22umpChannel%22%3A%2 ... %2C%22serviceVersion%22%3A%221.8.5%22%7D&buyParam=601689680619_1_4214708653111&buyNow=true&spm=a2oeg.project.projectinfo.dbuy
+1568044731013	Marionette	DEBUG	0 <- [1,78,null,{"value":null}]
+1568044731016	Marionette	DEBUG	0 -> [0,79,"WebDriver:GetTitle",{}]
+1568044731016	Marionette	DEBUG	0 <- [1,79,null,{"value":"确认订单"}]
+1568044731018	Marionette	DEBUG	0 -> [0,80,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[2]/div[2]/div/div[2]/div[2]/div[1]"}]
+WebGL(0x7f33dc3b8000)::ForceLoseContext
+1568044731120	Marionette	DEBUG	0 <- [1,80,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"537708e9-def7-4e83-b95d-6b854a7f7bde"}}]
+1568044731122	Marionette	DEBUG	0 -> [0,81,"WebDriver:FindElements",{"element":"537708e9-def7-4e83-b95d-6b854a7f7bde","using":"css selector","value":"label"}]
+1568044731127	Marionette	DEBUG	0 <- [1,81,null,[{"element-6066-11e4-a52e-4f735466cecf":"682801fc-6dda-4e2a-a58a-368ee6162c14"},{"element-6066-11e4-a52e-4f735466cecf":"cf7adcdb-a31f-4667-a85f-0bf42c8b28b2"}]]
+1568044731129	Marionette	DEBUG	0 -> [0,82,"WebDriver:FindElement",{"element":"682801fc-6dda-4e2a-a58a-368ee6162c14","using":"css selector","value":"input"}]
+1568044731134	Marionette	DEBUG	0 <- [1,82,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"896162dc-10b1-4cde-ace1-cce62c0ffe81"}}]
+1568044731136	Marionette	DEBUG	0 -> [0,83,"WebDriver:ElementClick",{"id":"896162dc-10b1-4cde-ace1-cce62c0ffe81"}]
+1568044731436	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1568044731437	Marionette	DEBUG	0 <- [1,83,null,{"value":null}]
+1568044731941	Marionette	DEBUG	0 -> [0,84,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[2]/div[2]/div/div[9]/button"}]
+1568044731945	Marionette	DEBUG	0 <- [1,84,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d4e3d0e9-7f1b-409f-b858-c1500bff21dd"}}]
+1568044731949	Marionette	DEBUG	0 -> [0,85,"WebDriver:ElementClick",{"id":"d4e3d0e9-7f1b-409f-b858-c1500bff21dd"}]
+1568044732185	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1568044732186	Marionette	DEBUG	0 <- [1,85,null,{"value":null}]
+1568044732188	Marionette	DEBUG	0 -> [0,86,"WebDriver:GetTitle",{}]
+1568044732188	Marionette	DEBUG	0 <- [1,86,null,{"value":"确认订单"}]
+1568044732490	Marionette	DEBUG	0 -> [0,87,"WebDriver:GetTitle",{}]
+1568044732491	Marionette	DEBUG	0 <- [1,87,null,{"value":"确认订单"}]
+1568044732795	Marionette	DEBUG	0 -> [0,88,"WebDriver:GetTitle",{}]
+1568044732796	Marionette	DEBUG	0 <- [1,88,null,{"value":"确认订单"}]
+1568044733100	Marionette	DEBUG	0 -> [0,89,"WebDriver:GetTitle",{}]
+1568044733100	Marionette	DEBUG	0 <- [1,89,null,{"value":"确认订单"}]
+1568044733403	Marionette	DEBUG	0 -> [0,90,"WebDriver:GetTitle",{}]
+1568044733403	Marionette	DEBUG	0 <- [1,90,null,{"value":"确认订单"}]
+1568044733707	Marionette	DEBUG	0 -> [0,91,"WebDriver:GetTitle",{}]
+1568044733708	Marionette	DEBUG	0 <- [1,91,null,{"value":"确认订单"}]
+1568044734011	Marionette	DEBUG	0 -> [0,92,"WebDriver:GetTitle",{}]
+1568044734012	Marionette	DEBUG	0 <- [1,92,null,{"value":"确认订单"}]
+1568044734317	Marionette	DEBUG	0 -> [0,93,"WebDriver:GetTitle",{}]
+1568044734318	Marionette	DEBUG	0 <- [1,93,null,{"value":"确认订单"}]
+1568044734622	Marionette	DEBUG	0 -> [0,94,"WebDriver:GetTitle",{}]
+1568044734622	Marionette	DEBUG	0 <- [1,94,null,{"value":"确认订单"}]
+1568044734926	Marionette	DEBUG	0 -> [0,95,"WebDriver:GetTitle",{}]
+1568044734927	Marionette	DEBUG	0 <- [1,95,null,{"value":"确认订单"}]
+1568044735231	Marionette	DEBUG	0 -> [0,96,"WebDriver:GetTitle",{}]
+1568044735231	Marionette	DEBUG	0 <- [1,96,null,{"value":"确认订单"}]
+1568044735535	Marionette	DEBUG	0 -> [0,97,"WebDriver:GetTitle",{}]
+1568044735536	Marionette	DEBUG	0 <- [1,97,null,{"value":"确认订单"}]
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1568044735839	Marionette	DEBUG	0 -> [0,98,"WebDriver:GetTitle",{}]
+1568044735839	Marionette	DEBUG	0 <- [1,98,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044736142	Marionette	DEBUG	0 -> [0,99,"WebDriver:GetTitle",{}]
+1568044736142	Marionette	DEBUG	0 <- [1,99,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+WebGL(0x7f33d9623000)::ForceLoseContext
+WebGL(0x7f33dc3b1800)::ForceLoseContext
+1568044736446	Marionette	DEBUG	0 -> [0,100,"WebDriver:GetTitle",{}]
+1568044736446	Marionette	DEBUG	0 <- [1,100,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044736752	Marionette	DEBUG	0 -> [0,101,"WebDriver:GetTitle",{}]
+1568044736753	Marionette	DEBUG	0 <- [1,101,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044737058	Marionette	DEBUG	0 -> [0,102,"WebDriver:GetTitle",{}]
+1568044737059	Marionette	DEBUG	0 <- [1,102,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044737363	Marionette	DEBUG	0 -> [0,103,"WebDriver:GetTitle",{}]
+1568044737363	Marionette	DEBUG	0 <- [1,103,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044737666	Marionette	DEBUG	0 -> [0,104,"WebDriver:GetTitle",{}]
+1568044737666	Marionette	DEBUG	0 <- [1,104,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044737970	Marionette	DEBUG	0 -> [0,105,"WebDriver:GetTitle",{}]
+1568044737971	Marionette	DEBUG	0 <- [1,105,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044738277	Marionette	DEBUG	0 -> [0,106,"WebDriver:GetTitle",{}]
+1568044738277	Marionette	DEBUG	0 <- [1,106,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044738581	Marionette	DEBUG	0 -> [0,107,"WebDriver:GetTitle",{}]
+1568044738581	Marionette	DEBUG	0 <- [1,107,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044738884	Marionette	DEBUG	0 -> [0,108,"WebDriver:GetTitle",{}]
+1568044738885	Marionette	DEBUG	0 <- [1,108,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044739188	Marionette	DEBUG	0 -> [0,109,"WebDriver:GetTitle",{}]
+1568044739188	Marionette	DEBUG	0 <- [1,109,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044739492	Marionette	DEBUG	0 -> [0,110,"WebDriver:GetTitle",{}]
+1568044739492	Marionette	DEBUG	0 <- [1,110,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044739796	Marionette	DEBUG	0 -> [0,111,"WebDriver:GetTitle",{}]
+1568044739796	Marionette	DEBUG	0 <- [1,111,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044740099	Marionette	DEBUG	0 -> [0,112,"WebDriver:GetTitle",{}]
+1568044740100	Marionette	DEBUG	0 <- [1,112,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044740402	Marionette	DEBUG	0 -> [0,113,"WebDriver:GetTitle",{}]
+1568044740403	Marionette	DEBUG	0 <- [1,113,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044740707	Marionette	DEBUG	0 -> [0,114,"WebDriver:GetTitle",{}]
+1568044740707	Marionette	DEBUG	0 <- [1,114,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044741012	Marionette	DEBUG	0 -> [0,115,"WebDriver:GetTitle",{}]
+1568044741012	Marionette	DEBUG	0 <- [1,115,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044741316	Marionette	DEBUG	0 -> [0,116,"WebDriver:GetTitle",{}]
+1568044741316	Marionette	DEBUG	0 <- [1,116,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044741620	Marionette	DEBUG	0 -> [0,117,"WebDriver:GetTitle",{}]
+1568044741621	Marionette	DEBUG	0 <- [1,117,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044741926	Marionette	DEBUG	0 -> [0,118,"WebDriver:GetTitle",{}]
+1568044741926	Marionette	DEBUG	0 <- [1,118,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044742229	Marionette	DEBUG	0 -> [0,119,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1568044742230	Marionette	INFO	Stopped listening on port 39997
+1568044742284	Marionette	TRACE	Received observer notification quit-application
+1568044742288	Marionette	DEBUG	0 <- [1,119,null,{"cause":"shutdown"}]
+1568044742322	Marionette	DEBUG	0 -> [0,120,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1568044742323	Marionette	DEBUG	0 <- [1,120,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDriv ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+1568044742333	Marionette	DEBUG	Closed connection 0
+[Parent 2759, Gecko_IOThread] WARNING: pipe error (87): 连接被对方重设: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1568044742918	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1568044742918	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1568044742918	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1568044742918	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1568044742918	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1568044742919	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1568044742919	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1568044742919	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1568044742919	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1568044742919	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1568044742920	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1568044742920	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1568044742920	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1568044742920	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1568044742920	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1568044742921	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1568044742921	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1568044742921	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1568044742921	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1568044742925	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1568044742926	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1568044742926	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1568044742926	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1568044742926	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1568044742926	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1568044742926	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1568044742926	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1568044742927	Marionette	DEBUG	Remote service is inactive
+1568044829394	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nidlcacUqjmv"
+1568044829714	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568044829715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568044829715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568044829843	Marionette	TRACE	Received observer notification profile-after-change
+1568044830072	Marionette	TRACE	Received observer notification command-line-startup
+1568044830072	Marionette	TRACE	Received observer notification nsPref:changed
+1568044830072	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1568044830598	Marionette	TRACE	Received observer notification toplevel-window-ready
+1568044831517	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1568044831517	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1568044831634	Marionette	TRACE	All scripts recorded.
+1568044831635	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1568044831635	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1568044831635	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1568044831635	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1568044831636	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1568044831636	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1568044831636	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1568044831636	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1568044831636	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1568044831637	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1568044831637	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1568044831637	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1568044831638	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1568044831638	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1568044831638	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1568044831638	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1568044831638	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1568044831638	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1568044831639	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1568044831639	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1568044831639	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1568044831639	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1568044831639	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1568044831639	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1568044831639	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1568044831639	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1568044831675	Marionette	INFO	Listening on port 39085
+1568044831675	Marionette	DEBUG	Remote service is active
+1568044831700	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55700
+1568044831701	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1568044831702	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568044831740	Marionette	TRACE	[4294967297] Frame script loaded
+1568044831740	Marionette	TRACE	[4294967297] Frame script registered
+1568044831754	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"71eaeaae-0d4e-4362-bc9e-1e36b27f25f5","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... ozprofile.nidlcacUqjmv","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1568044831758	Marionette	DEBUG	0 -> [0,2,"WebDriver:MaximizeWindow",{}]
+1568044832042	Marionette	DEBUG	0 <- [1,2,null,{"x":0,"y":27,"width":2560,"height":1332}]
+1568044832046	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619"}]
+1568044832075	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1568044835455	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+1568044835685	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+WebGL(0x7f51ef52e000)::ForceLoseContext
+
+(/usr/lib/firefox/firefox:3439): dconf-WARNING **: 00:00:36.145: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+WebGL(0x7f51f70a1800)::ForceLoseContext
+1568044837069	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044837070	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1568044837074	Marionette	DEBUG	0 -> [0,4,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"cna","path":"/","secure":false,"value":"mmT9FUFf0nMCASvgL6+vrQYt"}}]
+1568044837075	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1568044837082	Marionette	DEBUG	0 -> [0,5,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"cookie2","path":"/","secure":false,"value":"1cee3cc3e034295e28a4286363300bcb"}}]
+1568044837082	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1568044837085	Marionette	DEBUG	0 -> [0,6,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"t","path":"/","secure":false,"value":"8588607d9be53c3bcd8f04eacc7b3b7c"}}]
+1568044837086	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1568044837088	Marionette	DEBUG	0 -> [0,7,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"_tb_token_","path":"/","secure":false,"value":"fb34e455eede7"}}]
+1568044837089	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1568044837090	Marionette	DEBUG	0 -> [0,8,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"_hvn_login","path":"/","secure":false,"value":"18"}}]
+1568044837091	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1568044837096	Marionette	DEBUG	0 -> [0,9,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"munb","path":"/","secure":false,"value":"3734387547"}}]
+1568044837097	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1568044837099	Marionette	DEBUG	0 -> [0,10,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"csg","path":"/","secure":false,"value":"0bb1a406"}}]
+1568044837100	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1568044837103	Marionette	DEBUG	0 -> [0,11,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"damai.cn_nickName","path":"/","secure":false,"value":"%E7%9F%B3%E5%A4%B4"}}]
+1568044837104	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1568044837106	Marionette	DEBUG	0 -> [0,12,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"damai.cn_user","path":"/","secure":false,"value":"p9mjNKwHOgHfRDw190CfwTU7alB58LwzsihqBQXX1/+iFuVpEBgOsPIYqEJaC/ay"}}]
+1568044837107	Marionette	DEBUG	0 <- [1,12,null,{"value":null}]
+1568044837109	Marionette	DEBUG	0 -> [0,13,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"damai.cn_user_new","path":"/","secure":false,"value":"p9mjNKwHOgHfRDw190CfwTU7alB58LwzsihqBQXX1%2F%2BiFuVpEBgOsPIYqEJaC%2Fay"}}]
+1568044837110	Marionette	DEBUG	0 <- [1,13,null,{"value":null}]
+1568044837111	Marionette	DEBUG	0 -> [0,14,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"h5token","path":"/","secure":false,"value":"42b1d51e4cda4240bc693fe76a77035a_1_1"}}]
+1568044837112	Marionette	DEBUG	0 <- [1,14,null,{"value":null}]
+1568044837114	Marionette	DEBUG	0 -> [0,15,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"damai_cn_user","path":"/","secure":false,"value":"p9mjNKwHOgHfRDw190CfwTU7alB58LwzsihqBQXX1%2F%2BiFuVpEBgOsPIYqEJaC%2Fay"}}]
+1568044837115	Marionette	DEBUG	0 <- [1,15,null,{"value":null}]
+1568044837116	Marionette	DEBUG	0 -> [0,16,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"loginkey","path":"/","secure":false,"value":"42b1d51e4cda4240bc693fe76a77035a_1_1"}}]
+1568044837116	Marionette	DEBUG	0 <- [1,16,null,{"value":null}]
+1568044837118	Marionette	DEBUG	0 -> [0,17,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"user_id","path":"/","secure":false,"value":"55794363"}}]
+1568044837119	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1568044837121	Marionette	DEBUG	0 -> [0,18,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"isg","path":"/","secure":false,"value":"BGBg1unSKdXgi5XR_PqwUjOoMmfywURe5VEtctpxM3sO1QH_gng-wyKkbbRw_vwL"}}]
+1568044837121	Marionette	DEBUG	0 <- [1,18,null,{"value":null}]
+1568044837123	Marionette	DEBUG	0 -> [0,19,"WebDriver:AddCookie",{"cookie":{"domain":".damai.cn","httpOnly":false,"name":"l","path":"/","secure":false,"value":"cBgIVQPVqwlQdvR1BOCgquI8aN7OQIObYuPRwNfXi_5BK_L1-e_OkzlxSEp6c1XhTe8Bqyr2a8JTFeY4P6U577u9thX0J"}}]
+1568044837123	Marionette	DEBUG	0 <- [1,19,null,{"value":null}]
+1568044837126	Marionette	DEBUG	0 -> [0,20,"WebDriver:Refresh",{}]
+1568044837143	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044838026	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044838027	Marionette	TRACE	[4294967297] Received DOM event unload for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044838165	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1568044838204	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+WebGL(0x7f51ef532800)::ForceLoseContext
+WebGL(0x7f51fb964800)::ForceLoseContext
+1568044839638	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044839639	Marionette	DEBUG	0 <- [1,20,null,{"value":null}]
+1568044839648	Marionette	DEBUG	0 -> [0,21,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[1]/div/div[3]/div[1]/a[2]/div"}]
+1568044839651	Marionette	DEBUG	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"53f8182b-2455-4e9c-9907-adecb9680d7c"}}]
+1568044839653	Marionette	DEBUG	0 -> [0,22,"WebDriver:GetElementText",{"id":"53f8182b-2455-4e9c-9907-adecb9680d7c"}]
+1568044839661	Marionette	DEBUG	0 <- [1,22,null,{"value":"石头"}]
+1568044839663	Marionette	DEBUG	0 -> [0,23,"WebDriver:GetTitle",{}]
+1568044839663	Marionette	DEBUG	0 <- [1,23,null,{"value":"【绍兴】王力宏“龙的传人2060”世界巡演绍兴站【网上订票】- 大麦网"}]
+1568044839665	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElements",{"using":"css selector","value":".perform__order__select"}]
+1568044839685	Marionette	DEBUG	0 <- [1,24,null,[{"element-6066-11e4-a52e-4f735466cecf":"3748eeba-487a-467c-9393-b14e347dadfc"},{"element-6066-11e4-a52e-4f735466cecf":"4a438cf2-06b5-4894-b772-783844bc1abe"},{"element-6066-11e4-a52e-4f735466cecf":"e3ec64f6-335a-4080-b635-68fe15e6163e"}]]
+1568044839687	Marionette	DEBUG	0 -> [0,25,"WebDriver:FindElement",{"element":"3748eeba-487a-467c-9393-b14e347dadfc","using":"css selector","value":".select_left"}]
+1568044839689	Marionette	DEBUG	0 <- [1,25,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"407194f4-0efe-4d91-bb91-13cb48abfb4a"}}]
+1568044839694	Marionette	DEBUG	0 -> [0,26,"WebDriver:GetElementText",{"id":"407194f4-0efe-4d91-bb91-13cb48abfb4a"}]
+1568044839698	Marionette	DEBUG	0 <- [1,26,null,{"value":""}]
+1568044839700	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElement",{"element":"3748eeba-487a-467c-9393-b14e347dadfc","using":"css selector","value":".select_left"}]
+1568044839702	Marionette	DEBUG	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"407194f4-0efe-4d91-bb91-13cb48abfb4a"}}]
+1568044839704	Marionette	DEBUG	0 -> [0,28,"WebDriver:GetElementText",{"id":"407194f4-0efe-4d91-bb91-13cb48abfb4a"}]
+1568044839708	Marionette	DEBUG	0 <- [1,28,null,{"value":""}]
+1568044839710	Marionette	DEBUG	0 -> [0,29,"WebDriver:FindElement",{"element":"4a438cf2-06b5-4894-b772-783844bc1abe","using":"css selector","value":".select_left"}]
+1568044839713	Marionette	DEBUG	0 <- [1,29,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8ebe840d-a3a0-41d3-9ff1-660f10281ddc"}}]
+1568044839715	Marionette	DEBUG	0 -> [0,30,"WebDriver:GetElementText",{"id":"8ebe840d-a3a0-41d3-9ff1-660f10281ddc"}]
+1568044839722	Marionette	DEBUG	0 <- [1,30,null,{"value":"场次"}]
+1568044839724	Marionette	DEBUG	0 -> [0,31,"WebDriver:FindElement",{"element":"e3ec64f6-335a-4080-b635-68fe15e6163e","using":"css selector","value":".select_left"}]
+1568044839726	Marionette	DEBUG	0 <- [1,31,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"cb7cf403-6616-4913-bf80-bad05ec8b448"}}]
+1568044839728	Marionette	DEBUG	0 -> [0,32,"WebDriver:GetElementText",{"id":"cb7cf403-6616-4913-bf80-bad05ec8b448"}]
+1568044839733	Marionette	DEBUG	0 <- [1,32,null,{"value":"票档"}]
+1568044839735	Marionette	DEBUG	0 -> [0,33,"WebDriver:FindElement",{"element":"e3ec64f6-335a-4080-b635-68fe15e6163e","using":"css selector","value":".select_left"}]
+1568044839737	Marionette	DEBUG	0 <- [1,33,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"cb7cf403-6616-4913-bf80-bad05ec8b448"}}]
+1568044839745	Marionette	DEBUG	0 -> [0,34,"WebDriver:GetElementText",{"id":"cb7cf403-6616-4913-bf80-bad05ec8b448"}]
+1568044839750	Marionette	DEBUG	0 <- [1,34,null,{"value":"票档"}]
+1568044839753	Marionette	DEBUG	0 -> [0,35,"WebDriver:FindElements",{"element":"4a438cf2-06b5-4894-b772-783844bc1abe","using":"css selector","value":".select_right_list_item"}]
+1568044839755	Marionette	DEBUG	0 <- [1,35,null,[{"element-6066-11e4-a52e-4f735466cecf":"510bc97c-f855-4b92-b310-a283c3cd30d7"}]]
+1568044839757	Marionette	DEBUG	0 -> [0,36,"WebDriver:FindElement",{"element":"510bc97c-f855-4b92-b310-a283c3cd30d7","using":"css selector","value":".presell"}]
+1568044839759	Marionette	DEBUG	0 <- [1,36,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ba46b4ce-1d32-42ba-814e-053def9a1bcf"}}]
+1568044839762	Marionette	DEBUG	0 -> [0,37,"WebDriver:GetElementText",{"id":"ba46b4ce-1d32-42ba-814e-053def9a1bcf"}]
+1568044839767	Marionette	DEBUG	0 <- [1,37,null,{"value":"预售"}]
+1568044839769	Marionette	DEBUG	0 -> [0,38,"WebDriver:GetElementText",{"id":"ba46b4ce-1d32-42ba-814e-053def9a1bcf"}]
+1568044839775	Marionette	DEBUG	0 <- [1,38,null,{"value":"预售"}]
+1568044839777	Marionette	DEBUG	0 -> [0,39,"WebDriver:ElementClick",{"id":"510bc97c-f855-4b92-b310-a283c3cd30d7"}]
+1568044840010	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1568044840011	Marionette	DEBUG	0 <- [1,39,null,{"value":null}]
+1568044840014	Marionette	DEBUG	0 -> [0,40,"WebDriver:FindElements",{"element":"e3ec64f6-335a-4080-b635-68fe15e6163e","using":"css selector","value":".select_right_list_item"}]
+1568044840021	Marionette	DEBUG	0 <- [1,40,null,[{"element-6066-11e4-a52e-4f735466cecf":"e4d49d8c-8d2f-470f-a71e-8b9075435857"},{"element-6066-11e4-a52e-4f735466c ... ecf":"2b392066-5ba0-4ac2-ae75-b7a0492bec37"},{"element-6066-11e4-a52e-4f735466cecf":"b103f9cd-460c-45b9-9db3-dc0aedafbf2c"}]]
+1568044840023	Marionette	DEBUG	0 -> [0,41,"WebDriver:FindElement",{"element":"e4d49d8c-8d2f-470f-a71e-8b9075435857","using":"css selector","value":".notticket"}]
+1568044840025	Marionette	DEBUG	0 <- [1,41,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"052ee7a9-3042-46a2-a66b-09b9313de099"}}]
+1568044840026	Marionette	DEBUG	0 -> [0,42,"WebDriver:FindElement",{"element":"8259e168-16c7-42e6-863c-a379732e26f6","using":"css selector","value":".notticket"}]
+1568044840028	Marionette	DEBUG	0 <- [1,42,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a4f7f38b-7d1e-4a0b-99fc-322faa9b0d8e"}}]
+1568044840030	Marionette	DEBUG	0 -> [0,43,"WebDriver:FindElement",{"element":"76709218-a322-41c1-8a2b-fbaff6dc7320","using":"css selector","value":".notticket"}]
+1568044840032	Marionette	DEBUG	0 <- [1,43,{"error":"no such element","message":"Unable to locate element: .notticket","stacktrace":"WebDriverError@chrome://mario ... entError@chrome://marionette/content/error.js:389:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1568044840034	Marionette	DEBUG	0 -> [0,44,"WebDriver:ElementClick",{"id":"76709218-a322-41c1-8a2b-fbaff6dc7320"}]
+1568044840255	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1568044840257	Marionette	DEBUG	0 <- [1,44,null,{"value":null}]
+1568044840261	Marionette	DEBUG	0 -> [0,45,"WebDriver:FindElement",{"using":"css selector","value":".buybtn"}]
+1568044840267	Marionette	DEBUG	0 <- [1,45,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"87974030-ac70-4fde-a71f-801c1ef88c7d"}}]
+1568044840272	Marionette	DEBUG	0 -> [0,46,"WebDriver:GetElementText",{"id":"87974030-ac70-4fde-a71f-801c1ef88c7d"}]
+1568044840278	Marionette	DEBUG	0 <- [1,46,null,{"value":"立即预订"}]
+1568044840281	Marionette	DEBUG	0 -> [0,47,"WebDriver:ElementClick",{"id":"87974030-ac70-4fde-a71f-801c1ef88c7d"}]
+1568044840294	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044840462	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044840464	Marionette	TRACE	[4294967297] Received DOM event unload for https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619
+1568044840639	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1568044841086	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://buy.damai.cn/orderConfirm?exParams=%7B%22damai%22%3A%221%22%2C%22channel%22%3A%22damai_app%22%2C%22umpChannel%22%3A%2 ... %2C%22serviceVersion%22%3A%221.8.5%22%7D&buyParam=601689680619_1_4214708653111&buyNow=true&spm=a2oeg.project.projectinfo.dbuy
+1568044841356	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://buy.damai.cn/orderConfirm?exParams=%7B%22damai%22%3A%221%22%2C%22channel%22%3A%22damai_app%22%2C%22umpChannel%22%3A%2 ... %2C%22serviceVersion%22%3A%221.8.5%22%7D&buyParam=601689680619_1_4214708653111&buyNow=true&spm=a2oeg.project.projectinfo.dbuy
+1568044841357	Marionette	DEBUG	0 <- [1,47,null,{"value":null}]
+1568044841359	Marionette	DEBUG	0 -> [0,48,"WebDriver:GetTitle",{}]
+1568044841360	Marionette	DEBUG	0 <- [1,48,null,{"value":"确认订单"}]
+1568044841362	Marionette	DEBUG	0 -> [0,49,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[2]/div[2]/div/div[2]/div[2]/div[1]"}]
+1568044841364	Marionette	DEBUG	0 <- [1,49,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"363d310c-ff29-4c3d-82ad-ddf5bd03be7d"}}]
+1568044841367	Marionette	DEBUG	0 -> [0,50,"WebDriver:FindElements",{"element":"363d310c-ff29-4c3d-82ad-ddf5bd03be7d","using":"css selector","value":"label"}]
+1568044841370	Marionette	DEBUG	0 <- [1,50,null,[{"element-6066-11e4-a52e-4f735466cecf":"2d18ee42-7816-4dce-bf9e-5852412bac23"},{"element-6066-11e4-a52e-4f735466cecf":"b1775c50-1a64-422b-820a-ce51c3c0de83"}]]
+1568044841373	Marionette	DEBUG	0 -> [0,51,"WebDriver:FindElement",{"element":"2d18ee42-7816-4dce-bf9e-5852412bac23","using":"css selector","value":"input"}]
+1568044841378	Marionette	DEBUG	0 <- [1,51,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"dc52b259-31bd-4fe8-9c49-40195e350998"}}]
+1568044841380	Marionette	DEBUG	0 -> [0,52,"WebDriver:ElementClick",{"id":"dc52b259-31bd-4fe8-9c49-40195e350998"}]
+WebGL(0x7f51e6cc5800)::ForceLoseContext
+WebGL(0x7f51e708a000)::ForceLoseContext
+WebGL(0x7f51e708a800)::ForceLoseContext
+1568044841888	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1568044841888	Marionette	DEBUG	0 <- [1,52,null,{"value":null}]
+1568044842394	Marionette	DEBUG	0 -> [0,53,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[2]/div[2]/div/div[9]/button"}]
+1568044842398	Marionette	DEBUG	0 <- [1,53,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"db4e5a95-3229-4a6c-a57d-fa2a246a4bcb"}}]
+1568044842401	Marionette	DEBUG	0 -> [0,54,"WebDriver:ElementClick",{"id":"db4e5a95-3229-4a6c-a57d-fa2a246a4bcb"}]
+1568044842632	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1568044842633	Marionette	DEBUG	0 <- [1,54,null,{"value":null}]
+1568044842635	Marionette	DEBUG	0 -> [0,55,"WebDriver:GetTitle",{}]
+1568044842636	Marionette	DEBUG	0 <- [1,55,null,{"value":"确认订单"}]
+1568044842938	Marionette	DEBUG	0 -> [0,56,"WebDriver:GetTitle",{}]
+1568044842939	Marionette	DEBUG	0 <- [1,56,null,{"value":"确认订单"}]
+1568044843243	Marionette	DEBUG	0 -> [0,57,"WebDriver:GetTitle",{}]
+1568044843244	Marionette	DEBUG	0 <- [1,57,null,{"value":"确认订单"}]
+1568044843548	Marionette	DEBUG	0 -> [0,58,"WebDriver:GetTitle",{}]
+1568044843549	Marionette	DEBUG	0 <- [1,58,null,{"value":"确认订单"}]
+1568044843853	Marionette	DEBUG	0 -> [0,59,"WebDriver:GetTitle",{}]
+1568044843854	Marionette	DEBUG	0 <- [1,59,null,{"value":"确认订单"}]
+1568044844158	Marionette	DEBUG	0 -> [0,60,"WebDriver:GetTitle",{}]
+1568044844159	Marionette	DEBUG	0 <- [1,60,null,{"value":"确认订单"}]
+1568044844464	Marionette	DEBUG	0 -> [0,61,"WebDriver:GetTitle",{}]
+1568044844465	Marionette	DEBUG	0 <- [1,61,null,{"value":"确认订单"}]
+1568044844771	Marionette	DEBUG	0 -> [0,62,"WebDriver:GetTitle",{}]
+1568044844773	Marionette	DEBUG	0 <- [1,62,null,{"value":"确认订单"}]
+1568044845080	Marionette	DEBUG	0 -> [0,63,"WebDriver:GetTitle",{}]
+1568044845081	Marionette	DEBUG	0 <- [1,63,null,{"value":"确认订单"}]
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1568044845384	Marionette	DEBUG	0 -> [0,64,"WebDriver:GetTitle",{}]
+1568044845384	Marionette	DEBUG	0 <- [1,64,null,{"value":"支付宝 - 网上支付 安全快速！"}]
+1568044845403	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 724: TypeError: docShell.failedChannel is null
+[Parent 3292, Gecko_IOThread] WARNING: pipe error (79): 连接被对方重设: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 3292, Gecko_IOThread] WARNING: pipe error (65): 连接被对方重设: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1568044851921	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1568044851921	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1568044851921	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1568044851921	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1568044851921	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1568044851922	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1568044851922	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1568044851922	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1568044851922	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1568044851922	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1568044851923	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1568044851923	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1568044851923	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1568044851923	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1568044851923	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1568044851923	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1568044851923	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1568044851923	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1568044851924	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1568044851924	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1568044851924	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1568044851924	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1568044851924	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1568044851924	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1568044851924	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1568044851924	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1568044851924	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1568044851925	Marionette	INFO	Stopped listening on port 39085
+1568044851925	Marionette	DEBUG	Remote service is inactive
