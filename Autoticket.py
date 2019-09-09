@@ -163,13 +163,13 @@ class Concert(object):
 
             elif buybutton_text == "立即预订":
                 for i in range(self.ticket_num-1): # 设置增加票数
-                    self.driver.find_element_by_xpath('/html/body/div[2]/div/div[1]/div[1]/div/div[2]/div[3]/div[8]/div[2]/div/div/a[2]').click()
+                    self.driver.find_element_by_xpath('/html/body/div[2]/div/div[1]/div[1]/div/div[2]/div[5]/div[6]/div[2]/div/div/a[2]').click()
                 buybutton.click()
                 self.status = 3
                     
             elif buybutton_text == "立即购买":
                 for i in range(self.ticket_num-1): # 设置增加票数
-                    self.driver.find_element_by_xpath('/html/body/div[2]/div/div[1]/div[1]/div/div[2]/div[3]/div[8]/div[2]/div/div/a[2]').click()
+                    self.driver.find_element_by_xpath('/html/body/div[2]/div/div[1]/div[1]/div/div[2]/div[5]/div[6]/div[2]/div/div/a[2]').click()
                 buybutton.click()
                 self.status = 4                    
         

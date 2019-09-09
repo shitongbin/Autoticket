@@ -4,11 +4,12 @@
     ],
     "price": [
         1,
+        2,
         3
     ],
-    "real_name": 2,
-    "nick_name": "<Your nick_name>",
+    "real_name": 1,
+    "nick_name": "石头",
     "ticket_num": 1,
     "damai_url": "https://www.damai.cn/",
-    "target_url": "https://piao.damai.cn/178826.html?spm=a2o6e.11081723.1329302258.dcarditem_0.40593a038N18CT"
+    "target_url": "https://detail.damai.cn/item.htm?spm=a2oeg.home.card_0.ditem_2.591b23e1pyPGO1&id=601689680619"
 }
